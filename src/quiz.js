@@ -23,6 +23,7 @@ class Quiz {
       this.correctAnswers++;
     }
   }
+
   hasEnded() {
     if (this.currentQuestionIndex < this.questions.length) {
       return false;
